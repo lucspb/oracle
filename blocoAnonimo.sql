@@ -8,7 +8,7 @@ BEGIN
 END;
 
 DECLARE
-    vTexto VARCHAR(100) := 'Hello World';
+    vTexto VARCHAR2(100) := 'Hello World';
 BEGIN
     DBMS_OUTPUT.PUT_LINE(vTexto);
 END;
@@ -21,7 +21,7 @@ END;
 
 DECLARE
     vTextoFixo CHAR(2) := 'PB';
-    vTextoVariavel VARCHAR(100) := 'Guarabira, PB';
+    vTextoVariavel VARCHAR2(100) := 'Guarabira, PB';
 BEGIN
     DBMS_OUTPUT.PUT_LINE('Texto Fixo = ' || vTextoFixo);
     DBMS_OUTPUT.PUT_LINE('Texto Variavel = ' || vTextoVariavel);
